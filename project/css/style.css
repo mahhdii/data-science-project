@@ -1,0 +1,73 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+
+main{
+	height: 90%;
+	width: 100%;
+	
+}
+.container{
+	width: 80%;
+}
+
+.slider{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden !important;
+}
+
+.overlay{
+  background: rgba(30, 169, 244, .3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 300;
+}
+
+.welcome{
+	padding-top: 5em;
+    color: white;
+}
+
+
+.welcome h1{
+	font-family: sans-serif !important;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.welcome .typed ,.typed-cursor{
+	font-size: 2em;
+}
+
+.welcome .actions{
+	margin-top: 50px;
+}
+
+
+.campaigns .profile-pic{
+	width:60%;
+	margin: auto;
+}
+
+.campaigns  .card-title{
+	font-weight: 500 !important;
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.campaign-meta table tr{
+	border: none;
+	padding: 0 !important;
+	line-height: 0 !important;
+}
+/* 
+.campaign-meta table td{
+	padding: 0 !important;
+	line-height: 0 !important;
+} */
